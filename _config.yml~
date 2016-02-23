@@ -1,0 +1,32 @@
+# Site settings
+title: Adam Tomkins
+email: a.tomkins@sheffield.ac.uk
+description: > # this means to ignore newlines until "baseurl:"
+   Computational Neuroscience Researcher and Neuroinformatic Tool Developer.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: artomkins
+github_username:  AdamRTomkins
+
+# Build settings
+markdown: kramdown
+
+highlighter: pygments
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  rfcs:
+    output: true
+    permalink: /rfc/:path/
+
+
