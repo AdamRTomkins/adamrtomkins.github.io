@@ -6,10 +6,9 @@ title: home
 <img class="col one right" src="/img/prof_pic.jpg">
 
 <br/>
-Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
+I am a computational neuroscientist and neuroinformatic tool developer based in Sheffield, UK. I completed my PhD in Computer Science under <a href="http://staffwww.dcs.shef.ac.uk/people/E.Vasilaki/" target="blank">Dr. Eleni Vasilaki</a> and <a href="https://www.shef.ac.uk/psychology/staff/academic/kevin-gurney" target="blank">Prof. Kevin Gurney</a>, and am currently a neuroinformatic researcher on the <a href="http://gtr.rcuk.ac.uk/projects?ref=BB/M025527/1" target="blank"> Digital Fruit Fly Brain</a> Project, under <a href="https://www.sheffield.ac.uk/acse/staff/dc" target="blank">Prof. Daniel Coca</a> and <a href="http://paulrichmond.shef.ac.uk/" target="blank">Dr. Paul Richmond</a>
 
-Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them. 
-
+My research interests are biological neural networks, and neurodegenerative disease, and developing the tools to open computational neuroscience up to a wider audience. 
 
 <br/>
 <hr/>
