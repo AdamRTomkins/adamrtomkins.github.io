@@ -5,10 +5,6 @@ date: 2016-02-28 16:19:00
 description: A quick guide to installing the Mist browser on Ubuntu 12.04
 ---
 
-# Starting on the BlockChain
-
-How to install mist on a Ubuntu 12.04
-
 ### Prepare a folder to install into
 
 We are going to create a new folder to hold all of the ethereum related repos we will be downloading, so to start:
