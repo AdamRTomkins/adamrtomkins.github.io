@@ -11,10 +11,13 @@ Imagine reading the latest research papers, revising online textbooks, or discus
 
 This proposal aims to integrate web annotation into the heart of the Open Science movement by embedding data-annotation into the new FFBO data silo, while simultaneously creating a framework for other projects to follow suit. Why? Because open data should be open to everyone.
 
+</div>
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/brain.png" alt="" title="Sheffield"/>
+	<img class="col three" src="{{ site.baseurl }}/img/brain.png" alt="" title="Drosophila Brain"/>
 </div>
 <div class="col three caption">
+    The connectivity of the Drosophila Brain.
+</div>
 
 There is a push for open science to enable improved collaboration and accelerate research which has resulted in large silos of publically accessible data, which often require specialist tools or knowledge for effective access and exploration. Concurrently, the push for accelerated research often overlooks the impact that access to data can have in education. I want to ensure that the latest open data is maximally utilized, by providing interactive data-based annotations, as a mechanism for encouraging easy access to open data.
 
@@ -33,13 +36,4 @@ Secondarily, this project will expand the FFBO platform to support the long-term
 
 This project will be completed by Dr. Adam Tomkins of Sheffield University, UK. The development of the work will be published on the Fruit Fly Brain Observatory (http://fruitflybrain.org), and the Sheffield Neuroscience Portal (http://neuroscience.sheffield.ac.uk) as part of an instructional series on how to develop apps to utilize open data. The Project would be completed incrementally over five months, with the three major components being developed, tested and deployed in series, ensuring that each addition can function independently, and act as a guide to other open-data projects.
 
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/brain.png" alt="" title="Drosophila Brain"/>
-</div>
-<div class="col three caption">
-    The connectivity of the Drosophila Brain.
-</div>
-
-This project has been funded in part by the [Open Science Prize](https://www.openscienceprize.org/) 
 

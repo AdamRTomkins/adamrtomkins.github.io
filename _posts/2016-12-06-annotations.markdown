@@ -2,30 +2,12 @@
 layout: post
 title:  Open Data through Open Web Annotations
 date: 2016-12-06 13:00:00
-description: Opening up open data to the public for education, sharing, and discussion.
+description: Opening up open data to the public
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. 
+Open Science initiatives encourage labs to openly publish data to help accelerate research. Unfortunately, the released data is often hard to access and explore, requiring specialized software.  This limits the usage of data in education and online discussion, resulting in underutilized data and impoverished educational material. 
 
-<div class="img_row">
-	<img class="col three" src="/img/9.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/9.jpg">
-</div>
-<div class="col three caption">
-	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
-</div>
-<div class="img_row">
-	<img class="col two" src="/img/8.jpg">
-	<img class="col one" src="/img/10.jpg">
-</div>
+Imagine reading the latest research papers, revising online textbooks, or discussing controversial articles, with the ability view and explore and share the very latest scientific data as it is being unraveled.  This project will create the tools required to share and interact with the latest open data repositories, enabling embedded interactive data visualizations as rich content web-annotations.
 
-Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
+Check out my latest [proposal]({site.baseurl}) on the projects page which aims to integrate web annotation into the heart of the Open Science movement by embedding data-annotation into the new FFBO data silo, while simultaneously creating a framework for other projects to follow suit. Why? Because open data should be open to everyone.
 
-
-<div class="img_row">
-	<img class="col one" src="/img/11.jpg">
-	<img class="col one" src="/img/12.jpg">
-	<img class="col one" src="/img/7.jpg">
-</div>
