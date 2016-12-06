@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  a post with images
-date: 2015-05-15 21:01:00
-description: this is what included images could look like
+title:  Open Data through Open Web Annotations
+date: 2016-12-06 13:00:00
+description: Opening up open data to the public for education, sharing, and discussion.
 ---
+
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. 
 
 <div class="img_row">
