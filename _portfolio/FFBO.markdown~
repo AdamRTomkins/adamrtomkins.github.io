@@ -8,9 +8,9 @@ img: /img/FFBO.png
 The Fruit Fly Brain Observatory is an overarching project, as a collaboration between Sheffield University, Columbia University and the National Tsing Hua University in Taiwan. You can find out more at [http://fruitflybrain.org/](http://fruitflybrain.org/)
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/logo/sheffield.png" alt="" title="Sheffield"/>
-	<img class="col one" src="{{ site.baseurl }}/img/logo/columbia.png" alt="" title="Columbia"/>
-	<img class="col one" src="{{ site.baseurl }}/img/logo/nthu.png" alt="" title="NTHU"/>
+	<img class="col three" src="{{ site.baseurl }}/img/logo/sheffield.png" alt="" title="Sheffield"/>
+	<img class="col three" src="{{ site.baseurl }}/img/logo/columbia.png" alt="" title="Columbia"/>
+	<img class="col three" src="{{ site.baseurl }}/img/logo/nthu.png" alt="" title="NTHU"/>
 </div>
 <div class="col three caption">
 
@@ -30,12 +30,3 @@ automatically generates models of the fly brain that can be simulated efficientl
 
 This project has been funded in part by the [Open Science Prize](https://www.openscienceprize.org/) 
 
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>

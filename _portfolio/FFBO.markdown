@@ -8,9 +8,9 @@ img: /img/FFBO.png
 The Fruit Fly Brain Observatory is an overarching project, as a collaboration between Sheffield University, Columbia University and the National Tsing Hua University in Taiwan. You can find out more at [http://fruitflybrain.org/](http://fruitflybrain.org/)
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/logo/sheffield.png" alt="" title="Sheffield"/>
-	<img class="col one" src="{{ site.baseurl }}/img/logo/columbia.png" alt="" title="Columbia"/>
-	<img class="col one" src="{{ site.baseurl }}/img/logo/nthu.png" alt="" title="NTHU"/>
+	<img class="col three" src="{{ site.baseurl }}/img/logo/sheffield.png" alt="" title="Sheffield"/>
+	<img class="col three" src="{{ site.baseurl }}/img/logo/columbia.png" alt="" title="Columbia"/>
+	<img class="col three" src="{{ site.baseurl }}/img/logo/nthu.png" alt="" title="NTHU"/>
 </div>
 <div class="col three caption">
 
