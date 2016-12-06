@@ -17,14 +17,14 @@ description: A collection of my academic publications.
 </ul>
 
 <header class="post-header">
-    <h1 class="post-title">request for comments</h1>
+    <h1 class="post-title">presentations</h1>
 </header>
 
 <ul class="post-list">
-{% for rfc in site.rfcs reversed %}
+{% for presentation in site.presentations reversed %}
     <li>
-        <h2><a class="poem-title" href="{{ rfc.url | prepend: site.baseurl }}">{{ rfc.title }}</a></h2>
-        <p class="post-meta">{{ rfc.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <h2><a class="poem-title" href="{{ presentation.url | prepend: site.baseurl }}">{{ presentation.title }}</a></h2>
+        <p class="post-meta">{{ presentation.date | date: '%B %-d, %Y — %H:%M' }}</p>
       </li>
 {% endfor %}
 </ul>
