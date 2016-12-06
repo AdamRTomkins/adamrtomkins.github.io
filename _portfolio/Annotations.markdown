@@ -5,20 +5,33 @@ description: A proposal to open up open data to the public for education, sharin
 img: /img/FFBO.png
 ---
 
-The Fruit Fly Brain Observatory is an overarching project, as a collaboration between Sheffield University, Columbia University and the National Tsing Hua University in Taiwan. You can find out more at [http://fruitflybrain.org/](http://fruitflybrain.org/)
+Open Science initiatives encourage labs to openly publish data to help accelerate research. Unfortunately, the released data is often hard to access and explore, requiring specialized software.  This limits the usage of data in education and online discussion, resulting in underutilized data and impoverished educational material. 
+
+Imagine reading the latest research papers, revising online textbooks, or discussing controversial articles, with the ability view and explore and share the very latest scientific data as it is being unraveled.  This project will create the tools required to share and interact with the latest open data repositories, enabling embedded interactive data visualizations as rich content web-annotations.
+
+This proposal aims to integrate web annotation into the heart of the Open Science movement by embedding data-annotation into the new FFBO data silo, while simultaneously creating a framework for other projects to follow suit. Why? Because open data should be open to everyone.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/logo/sheffield.png" alt="" title="Sheffield"/>
-	<img class="col three" src="{{ site.baseurl }}/img/logo/columbia.png" alt="" title="Columbia"/>
-	<img class="col three" src="{{ site.baseurl }}/img/logo/nthu.png" alt="" title="NTHU"/>
+	<img class="col one" src="{{ site.baseurl }}/img/brain.png" alt="" title="Sheffield"/>
 </div>
 <div class="col three caption">
 
-The Fruit Fly Brain Observatory is a unique open source platform for studying fruit fly brain function, and for investigating fruit fly brain disease models that are highly relevant to the mechanisms of human neurological and psychiatric disorders. It
+There is a push for open science to enable improved collaboration and accelerate research which has resulted in large silos of publically accessible data, which often require specialist tools or knowledge for effective access and exploration. Concurrently, the push for accelerated research often overlooks the impact that access to data can have in education. I want to ensure that the latest open data is maximally utilized, by providing interactive data-based annotations, as a mechanism for encouraging easy access to open data.
 
-stores and processes data related to the neural circuits of the fly brain including location, morphology, connectivity and biophysical properties of every neuron,
-seamlessly integrates the structural and genetic data from multiple sources that can be queried, visualized and interpreted,
-automatically generates models of the fly brain that can be simulated efficiently using multiple Graphics Processing Units (GPUs) to help elucidate the mechanisms of human neurological disorders and identify drug targets.
+Recent funding by the open science prize has resulted in the FFBO project, a novel open source modular system that opens up whole-brain connectomics for scientists and researchers. As a flagship data source, I would like to develop the tools to use interactive data-based annotations to further open up this rich data repository to students and teachers alike. This project will simultaneously enrich educational materials and prepare young researchers for the world of large-scale data science, and provide the software framework for further open-data initiatives to embrace access-to-data through interactive annotations.
+
+This project will deliver:
+
+1. Additions to enable embedded interactive data visualizations through Annotator.js.
+2. A novel interface for creating and sharing data-annotation links for the FFBO data source, enabling interactive annotations and shareable links for Hypothesis.js
+3. A library of annotated academic and educational resources including, as an example of the power of open data annotations for scientific communications.
+4. Create a workflow for other open-data initiatives to enable low-friction data access.
+
+Primarily, this project will expand annotator.js to provide an annotation interface for embedded interactive data-based visualizations. I will focus on including the FFBO visualization engine, with a structure that can be easily adapted and extended to include other open data sources. This will enable content creators to create data enriched publications through curated annotations, and allow students to access and share the latest data through collaborative annotations.
+
+Secondarily, this project will expand the FFBO platform to support the long-term query storage to enable effective annotation permanence. With the FFBO exploration tools, each annotation would link to a powerful API, designed to explore custom brain visualizations.  This will require an expanded API for annotation creation, and  a simplified annotator-friendly interface to explore individually user-created data visualizations.  To demonstrate these capabilities, we will curate a library of example annotated publications, to demonstrate the framework of embedded data-annotation for other open science initiatives to follow.
+
+This project will be completed by Dr. Adam Tomkins of Sheffield University, UK. The development of the work will be published on the Fruit Fly Brain Observatory (http://fruitflybrain.org), and the Sheffield Neuroscience Portal (http://neuroscience.sheffield.ac.uk) as part of an instructional series on how to develop apps to utilize open data. The Project would be completed incrementally over five months, with the three major components being developed, tested and deployed in series, ensuring that each addition can function independently, and act as a guide to other open-data projects.
 
 </div>
 <div class="img_row">
