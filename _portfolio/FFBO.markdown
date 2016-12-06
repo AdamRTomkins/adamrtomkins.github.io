@@ -1,0 +1,32 @@
+---
+layout: post
+title: Fruit Fly Brain Observatory
+description: A project to map the Drosophila Melongaster brain.
+img: /img/FFBO.png
+---
+
+The Fruit Fly Brain Observatory is an overarching project, as a collaboration between Sheffield University, Columbia University and the National Tsing Hua University in Taiwan. You can find out more at [http://fruitflybrain.org/](http://fruitflybrain.org/)
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/logo/sheffield.png" alt="" title="Sheffield"/>
+	<img class="col one" src="{{ site.baseurl }}/img/logo/columbia.png" alt="" title="Columbia"/>
+	<img class="col one" src="{{ site.baseurl }}/img/logo/nthu.png" alt="" title="NTHU"/>
+</div>
+<div class="col three caption">
+
+The Fruit Fly Brain Observatory is a unique open source platform for studying fruit fly brain function, and for investigating fruit fly brain disease models that are highly relevant to the mechanisms of human neurological and psychiatric disorders. It
+
+stores and processes data related to the neural circuits of the fly brain including location, morphology, connectivity and biophysical properties of every neuron,
+seamlessly integrates the structural and genetic data from multiple sources that can be queried, visualized and interpreted,
+automatically generates models of the fly brain that can be simulated efficiently using multiple Graphics Processing Units (GPUs) to help elucidate the mechanisms of human neurological disorders and identify drug targets.
+
+</div>
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/brain.png" alt="" title="Drosophila Brain"/>
+</div>
+<div class="col three caption">
+    The connectivity of the Drosophila Brain.
+</div>
+
+This project has been funded in part by the [Open Science Prize](https://www.openscienceprize.org/) 
+
