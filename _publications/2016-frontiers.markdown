@@ -2,8 +2,8 @@
 layout: publication
 title: From GUI to GPU: A toolchain for GPU code generation for large scale Drosophila simulations using SpineML
 authors: Adam Tomkins, Carlos Luna Ortiz, Daniel Coca and Paul Richmond
-journal: Frontiers in Neuroinformatics     
-doi: 10.3389/conf.fninf.2016.20.00049  
+journal: Frontiers in Neuroinformatics
+doi: 10.3389/conf.fninf.2016.20.00049
 year: 2016
 link: http://www.frontiersin.org/10.3389/conf.fninf.2016.20.00049/event_abstract
 ---
