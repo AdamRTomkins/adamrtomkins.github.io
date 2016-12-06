@@ -11,12 +11,13 @@ github_username:  AdamRTomkins
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 # Pagination
 paginate: 15
 paginate_path: "/blog/page:num/"
 
+gems: [jekyll-paginate]
 
 collections:
   portfolio:
@@ -28,5 +29,8 @@ collections:
   rfcs:
     output: true
     permalink: /rfc/:path/
+  presentations:
+    output: true
+    permalink: /presentations/:path/
 
 

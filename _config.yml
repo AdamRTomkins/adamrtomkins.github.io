@@ -29,5 +29,8 @@ collections:
   rfcs:
     output: true
     permalink: /rfc/:path/
+  presentations:
+    output: true
+    permalink: /presentations/:path/
 
 
