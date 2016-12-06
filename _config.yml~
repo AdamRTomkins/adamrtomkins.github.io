@@ -26,9 +26,6 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
-  rfcs:
-    output: true
-    permalink: /rfc/:path/
   presentations:
     output: true
     permalink: /presentations/:path/
