@@ -2,7 +2,7 @@
 layout: post
 title: Fruit Fly Brain Observatory
 description: A project to map the Drosophila Melongaster brain.
-img: /img/FFBO.png
+img: /img/ffbo.png
 ---
 
 The Fruit Fly Brain Observatory is an overarching project, as a collaboration between Sheffield University, Columbia University and the National Tsing Hua University in Taiwan. You can find out more at [http://fruitflybrain.org/](http://fruitflybrain.org/)
