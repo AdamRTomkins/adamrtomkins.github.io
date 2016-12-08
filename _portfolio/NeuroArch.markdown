@@ -2,7 +2,7 @@
 layout: post
 title: Neuroarch
 description: An object database for executable circuit models
-img: /img/fly.png
+img: /img/na.png
 redirect: https://neurokernel.github.io/
 ---
 
