@@ -2,7 +2,7 @@
 layout: post
 title: Open Data through Open Web Annotations
 description: A proposal to open up open data to the public for education, sharing, and discussion.
-img: /img/FFBO.png
+img: /img/annotation.png
 ---
 
 Open Science initiatives encourage labs to openly publish data to help accelerate research. Unfortunately, the released data is often hard to access and explore, requiring specialized software.  This limits the usage of data in education and online discussion, resulting in underutilized data and impoverished educational material. 
