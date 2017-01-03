@@ -11,7 +11,6 @@ Imagine reading the latest research papers, revising online textbooks, or discus
 
 This proposal aims to integrate web annotation into the heart of the Open Science movement by embedding data-annotation into the new FFBO data silo, while simultaneously creating a framework for other projects to follow suit. Why? Because open data should be open to everyone.
 
-</div>
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/brain.png" alt="" title="Drosophila Brain"/>
 </div>
