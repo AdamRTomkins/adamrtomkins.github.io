@@ -2,7 +2,7 @@
 layout: post
 title: Tel'aran'riod: An Virtual Reality Proof of Concept
 description: A javascript powered implementation of the world of dreams, using Google cardboard.
-img: /img/telaronriod.png
+img: /img/telaronriod.jpg
 ---
 
 This weekend project grew from two otherwise desperate parts of my life. First, my love of Robert Jordan's fantasy series, The Wheel of Time, and second, my Mums desire to see my travel pictures.
