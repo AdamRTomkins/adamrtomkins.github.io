@@ -22,7 +22,7 @@ This will kick off the Augmented Reality Tutorial Series, with a quick and easy 
 First we need to fire up Unity and Create a new AR project. Make sure its in 3D, and saved somewhere sensible. You can see above that I'm using a 2017 version of Unity, which is important as it has Vuforia support baked in.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Uniny_New_Project.png" alt="Start a new Unity Project" title="New Project"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Uniny_New_Project.PNG" alt="Start a new Unity Project" title="New Project"/>
 </div>
 
 2. Set Build Target
@@ -33,7 +33,7 @@ Click Android
 Click Switch Platform
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Switch_Platform.png" alt="Switch Unity Platform" title="Switch Platform"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Switch_Platform.PNG" alt="Switch Unity Platform" title="Switch Platform"/>
 </div>
 
 3. Edit the player Settings
@@ -48,7 +48,7 @@ It defaults to com.Company.ProductName, and will create an error if we do not ch
 com.TomkiStudios.TrackedAR
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Package_Name.png" alt="Set the Package Name" title="Package Name"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Package_Name.PNG" alt="Set the Package Name" title="Package Name"/>
 </div>
 
 
@@ -57,7 +57,7 @@ com.TomkiStudios.TrackedAR
 Scroll Down to the XR Settings Heading and we see three settings concerning VR and AR. Tick the Vuforia Augmented Reality checkbox. This will enable the Vuforia integration easily.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_XR_settings.png" alt="Set XR Settings" title="Set XR Settings"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_XR_settings.PNG" alt="Set XR Settings" title="Set XR Settings"/>
 </div>
 
 
@@ -88,7 +88,7 @@ This will add a ImageTarget object to your scene, and this is where the magic ha
 When your webcam detects the ImageTarget, it will be rendered to your screen, including any objects that are connected to it. So if we wanted a sphere to hover above an image we detect through the camera,we can add it as a child of the ImageTarget.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_ImageTarget.png" alt="Add an ImageTarget" title="TargetImage"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_ImageTarget.PNG" alt="Add an ImageTarget" title="TargetImage"/>
 </div>
 
 If you find your image in the scene, you will see that the default material is the Vuforia Astronaut. You will need a copy of this image, printed off (or at least on your phone), and you can find it here in Google.
@@ -118,7 +118,7 @@ Unity comes with the standard set of databases, which includes the astronaut car
 In the Vuforia Configuration that was previously opened, tick Load and Activate boxes for each of the Databases.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Load_Databases.png" alt="Enable Databases" title="Databases"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Load_Databases.PNG" alt="Enable Databases" title="Databases"/>
 </div>
 
 Now, we can close the inspector, and look at the Image Target object.
@@ -130,7 +130,7 @@ The final step to having a functional AR prototype, is to add something to actua
 We can first try it out with something simple, by adding a sphere to the TargetImage, as a child.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sphere.png" alt="Add a Sphere" title="AR Sphere"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sphere.PNG" alt="Add a Sphere" title="AR Sphere"/>
 </div>
 
 
@@ -142,7 +142,7 @@ I have printed a copy off, but you could also open the image on a phone, althogh
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sphere.png" alt="AR Test" title="AR Test"/>
+	<img class="col three" src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sphere.PNG" alt="AR Test" title="AR Test"/>
 </div>
 
 
