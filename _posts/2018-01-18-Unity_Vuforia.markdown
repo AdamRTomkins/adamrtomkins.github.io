@@ -15,9 +15,14 @@ This will kick off the Augmented Reality Tutorial Series, with a quick and easy 
 2. A Vuforia Account
 3. An AR capable device ( A laptop + webcam will do!)
 
+# Quick Overview
+
+
+
+
 ## Getting Started
 
-1. Start a new project
+###. Start a new project
 
 First we need to fire up Unity and Create a new AR project. Make sure its in 3D, and saved somewhere sensible. You can see above that I'm using a 2017 version of Unity, which is important as it has Vuforia support baked in.
 
@@ -25,7 +30,7 @@ First we need to fire up Unity and Create a new AR project. Make sure its in 3D,
 	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Uniny_New_Project.PNG" alt="Start a new Unity Project" title="New Project"/>
 </div>
 
-2. Set Build Target
+### Set Build Target
 
 File> Build Settings
 
@@ -36,11 +41,11 @@ Click Switch Platform
 	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Switch_Platform.PNG" alt="Switch Unity Platform" title="Switch Platform"/>
 </div>
 
-3. Edit the player Settings
+### Edit the player Settings
 
 From the same menu above, we have to configure our player settings, by clicking on the Player settings button. This will open a side bar in the main unity window. We can close the Build Settings pop-up for now. In this PlayerSettings side bar we need to do two things.
 
-3.2 Set the package name
+#### Set the package name
 Scroll Down to the Other Settings Heading and under identification we see Package Name.
 
 It defaults to com.Company.ProductName, and will create an error if we do not change this to something more specific, lets say:
@@ -52,7 +57,7 @@ com.TomkiStudios.TrackedAR
 </div>
 
 
-3.1 Set XR settings to enable Vuforia
+#### Set XR settings to enable Vuforia
 
 Scroll Down to the XR Settings Heading and we see three settings concerning VR and AR. Tick the Vuforia Augmented Reality checkbox. This will enable the Vuforia integration easily.
 
@@ -63,7 +68,7 @@ Scroll Down to the XR Settings Heading and we see three settings concerning VR a
 
 So now we're ready to get into the meat of the AR development. 
 
-5. Add the AR Camera
+### Add the AR Camera
 
 Every project starts with its own camera, but we're going to have to change that. 
 
@@ -77,7 +82,7 @@ You can now happily remove the original Main Camera, by right clicking and Delet
 
 We should now have an empty scene with only a AR camera and a Directional Lights. Next we need to add the tracker.
 
-6. Add a target Image
+### Add a target Image
 
 Vuforia lets us track any image that we upload, but some are more suitable than others, and we will show how we go about tracking custom images later on. For now, we will use the default image databases. 
 
@@ -95,7 +100,7 @@ If you find your image in the scene, you will see that the default material is t
 
 Next we need to tell unity what Vuforia databases (list of images) it will use.
 
-8. Activate Vuforia
+### Activate Vuforia
 
 Before the AR magic can happen, Vuforia needs you to register for an account, and create a developer key. This is all free for developers who just want to try out AR.
 
@@ -111,7 +116,7 @@ With the Development key, we can activate the Vuforia instance in unity to your 
 
 Click on the AR Camera, and the Inspector will show you its properties. Press the 'Open Vuforia Configuration' button, and paste in your License Key to the App License Key field.
 
-9. Activate the standard Vuforia Databases 
+### Activate the standard Vuforia Databases 
 
 Unity comes with the standard set of databases, which includes the astronaut card, so we will go and enable those databases.
 
@@ -123,7 +128,7 @@ In the Vuforia Configuration that was previously opened, tick Load and Activate 
 
 Now, we can close the inspector, and look at the Image Target object.
 
-7. Add a sphere to the target image
+### Add a sphere to the target image
 
 The final step to having a functional AR prototype, is to add something to actually display when we detect the image.
 
@@ -134,7 +139,7 @@ We can first try it out with something simple, by adding a sphere to the TargetI
 </div>
 
 
-9. Test AR
+### Test AR
 
 That should work, lets test it out by pressing the Play Button, and showing an astronaut to the web-cam. 
 
