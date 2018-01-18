@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Introduction to AR Development
+title:  Getting Started with Tracker Based AR 
 date: 2018-01-05 13:00:00
-description: An introduction to the technologies behind Augmented reality, and where to start developing.
+description: A tutorial on how to build your first tracker based AR app with Vuforia and Unity.
 ---
 
-# AR in Unity : Using Vuforia 
+# Tracker-based AR in Unity : Using Vuforia 
 
 This will kick off the Augmented Reality Tutorial Series, with a quick and easy guide to getting Augmented Reality working in Unity, using the now built in Vuforia.
 
