@@ -142,7 +142,7 @@ I have printed a copy off, but you could also open the image on a phone, althoug
 
 
 <div class="img_row">
-	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sphere.PNG" alt="AR Test" title="AR Test"/>
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_AR_Test.PNG" alt="AR Test" title="AR Test"/>
 </div>
 
 
