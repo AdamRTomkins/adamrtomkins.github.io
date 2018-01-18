@@ -6,11 +6,11 @@ description: An introduction to the technologies behind Augmented reality, and w
 ---
 [Warning, this is part of an ongoing Argmented Reality series, expect changes regularly]
 
-# An Introduction to Augmented Reality
+## An Introduction to Augmented Reality
 
 This post is a short review of the augmented reality development space, with the aim of giving you a broad overview of the hardware and software choices you can make before starting development. 
 
-## What is Augmented Reality
+### What is Augmented Reality
 
 Augmented reality is the art of mixing virtual elements into a physical reality, as opposed to Virtual reality, where the entirety of the experience is digital, you inhabit another world.
 
@@ -23,7 +23,7 @@ Tracked AR uses an image or object than can be easily digitally recognised, and 
 Trackerless AR is more complicated, and uses more computationally intensive methods to profile the real world, and extract areas of interest, such as flat planes( a table or the floor). This information can then be used to more intelligently add digital overlays, such as a cat walking around the floor, or plants growing on the table. The latest AR libraries from Google (ARCore) and Apple (ARKit) are capable of this kind of trackerless AR experience.
 
 
-# AR Technology Stacks
+### AR Technology Stacks
 
 There are several easily accessible ways to develop an AR application, with some very capable software libraries.
 
@@ -32,33 +32,24 @@ There are several easily accessible ways to develop an AR application, with some
 3. ARKit
 4. ARjs and A-Frame
 
-## Vuforia
+#### Vuforia
 
 My first experiences with AR was with Vuforia, and it has a free developer tier which makes it great to easily get involved with. Since my initial forays into AR with Vuroria, it has since been integrated directly into Unity, making your first AR experience a doddle.
 
-## ARjs and A-Frame
+#### ARjs and A-Frame
 
 In contrast to the full development enviroment of Unity+Vuforia, you can easily build your first AR experience in HTML, using ARjs as the library to detect and overlay images, and A-Frame as a great framework for AR and VR graphics in the browser. I think this is a great way to get involved with a more technologically conservative platform, and I'll have a tutorial up for this shortly.
 
-## ARCore and ARKit
+#### ARCore and ARKit
 
 These are the big guns and the new contenders, which promise a more indepth look at AR. Both of these can be used in conjunction with Unity, making for an integrated AR development experience. ARCore is focused on Android devices, and ARKit on Apple. However as they demand a more capable hardware set up than Vuforia, they will be left to last in the tutorial session, but they are a promising route to fully functional AR, especially with support for dynamic lighting.
 
 
-# AR Hardware
+### AR Hardware
 
 The AR space is not as developed as the VR Space with dedicated VR Headsets and Mobile Headsets, but there are comercially available tech that we can use to get started with AR technology.
 
 The big players in the space are Microsoft with the Hololens, and Meta with the Meta2 headset. While these are promising, they are hard to get hold of and expensive, especially as a fledgling AR developer.
 
 We will focus on the Mobile AR development, which gives you two options, handheld mobile AR, and Cardboard style AR headsets, such as the Aryzon. You can find the getting started tutorials with both, using Vuforia (here)[..] and (here)[..]
-
-
-
-
-
-
-- The Microsoft Hololense
-- Mobile AR
--- Aryzon Headset
 
