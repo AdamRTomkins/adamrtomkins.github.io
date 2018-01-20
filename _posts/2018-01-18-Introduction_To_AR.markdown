@@ -4,7 +4,7 @@ title:  Introduction to AR Development
 date: 2018-01-05 13:00:00
 description: An introduction to the technologies behind Augmented reality, and where to start developing.
 ---
-[Warning, this is part of an ongoing Argmented Reality series, expect changes regularly]
+[Warning, this is part of an ongoing Augmented Reality series, expect changes regularly]
 
 ## An Introduction to Augmented Reality
 
@@ -38,18 +38,18 @@ My first experiences with AR was with Vuforia, and it has a free developer tier 
 
 #### ARjs and A-Frame
 
-In contrast to the full development enviroment of Unity+Vuforia, you can easily build your first AR experience in HTML, using ARjs as the library to detect and overlay images, and A-Frame as a great framework for AR and VR graphics in the browser. I think this is a great way to get involved with a more technologically conservative platform, and I'll have a tutorial up for this shortly.
+In contrast to the full development environment of Unity+Vuforia, you can easily build your first AR experience in HTML, using ARjs as the library to detect and overlay images, and A-Frame as a great framework for AR and VR graphics in the browser. I think this is a great way to get involved with a more technologically conservative platform, and I'll have a tutorial up for this shortly.
 
 #### ARCore and ARKit
 
-These are the big guns and the new contenders, which promise a more indepth look at AR. Both of these can be used in conjunction with Unity, making for an integrated AR development experience. ARCore is focused on Android devices, and ARKit on Apple. However as they demand a more capable hardware set up than Vuforia, they will be left to last in the tutorial session, but they are a promising route to fully functional AR, especially with support for dynamic lighting.
+These are the big guns and the new contenders, which promise a more in-depth look at AR. Both of these can be used in conjunction with Unity, making for an integrated AR development experience. ARCore is focused on Android devices, and ARKit on Apple. However as they demand a more capable hardware set up than Vuforia, they will be left to last in the tutorial session, but they are a promising route to fully functional AR, especially with support for dynamic lighting.
 
 
 ### AR Hardware
 
-The AR space is not as developed as the VR Space with dedicated VR Headsets and Mobile Headsets, but there are comercially available tech that we can use to get started with AR technology.
+The AR space is not as developed as the VR Space with dedicated VR Headsets and Mobile Headsets, but there are commercially available units that we can use to get started with AR technology.
 
 The big players in the space are Microsoft with the Hololens, and Meta with the Meta2 headset. While these are promising, they are hard to get hold of and expensive, especially as a fledgling AR developer.
 
-We will focus on the Mobile AR development, which gives you two options, handheld mobile AR, and Cardboard style AR headsets, such as the Aryzon. You can find the getting started tutorials with both, using Vuforia (here)[..] and (here)[..]
+We will focus on the Mobile AR development, which gives you two options, hand-held mobile AR, and Cardboard style AR headsets, such as the Aryzon. You can find the getting started tutorials with both, using Vuforia (here)[..] and (here)[..]
 
