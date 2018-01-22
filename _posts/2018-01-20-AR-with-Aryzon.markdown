@@ -72,7 +72,7 @@ From here on we can add a child object to render when the Image is detected, and
 
 5. Fixing Compile errors
 
-At this point, I ran into some combile errors in the Console, which stated:
+At this point, I ran into some compile errors in the Console, which stated:
 
 Assets/Vuforia/Scripts/DefaultSmartTerrainEventHandler.cs(28,12): error CS0246: The type or namespace name `PropBehaviour' could not be found. Are you missing an assembly reference?
 
@@ -89,18 +89,4 @@ Assets/Vuforia/Editor/Scripts/OpenSourceInitializer.cs(47,48): error CS0246: The
 
  
 Hopefully now, you can test it! We expect to see a black screen, with the Aryzon overlay until we detect and object. Unlike the traditional AR behaviour, we do not see a pass through, that is because the Aryzon headset has optical pass through with a digital overlay. We will build for a phone next, and give it a whirl.
-
-
-
-
-
-
-
-
-
-
-
-
-Download the Aryzon Unity Package
-
 
