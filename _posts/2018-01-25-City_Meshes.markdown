@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  AR for Architecture - Generate City Meshes
-date: 2018-01-25 12:34:56
-description: Unleash yourself from the screen, and build your first AR App with the Aryzon Headset
+title:  AR for Architecture -  Generate City Meshes
+date: 2018-01-25 17:00:00
+description: A tutorial on how to Generate quick meshes of any city, using Open Street Maps.
 ---
 
 # AR for Architecture: Generate City Meshes
@@ -31,7 +31,7 @@ This process shouldn't take long at all, perhaps 5 minutes to get you up and run
 
 #### Find your city
 
-Open up [OpenStreetMap](http://www.openstreepmap.org) and find the city you are interested in using the search bar.
+Open up (OpenStreetMap)[http://www.openstreepmap.org] and find the city you are interested in using the search bar.
 
 Start the export process by clicking Export on the top tool bar, which will start the export sidebar. You can export the enire area, or click 'Manually select a different area' to draw a smaller rectangle. Here I focus on exporting the city center area focusing on Sheffields Arts tower, and the Ponderosa Park.
 
@@ -43,7 +43,7 @@ When you are ready, click export, annd download the maps.osm file.
 
 #### Get the OSM2World viewer 
 
-Now that we have the exported .osm map, we need to convert it into a recognisable format, that is where OSM2World viewer comes in. You can download the latest binaries at [OSM2World](osm2world.org/download/).
+Now that we have the exported .osm map, we need to convert it into a recognisable format, that is where OSM2World viewer comes in. You can download the latest binaries at (OSM2World)[osm2world.org/download/].
 
 This will download a zip file, which you can extract to a OSM2world folder, and run using the osm2world-windows batch file by double clicking it. This will load up a terminal, which then loads up OSM2World Viewer
 
@@ -62,7 +62,7 @@ File> Open OSM Model
 
 And select your map, after some processing, this will show you your city mesh.
 
-<div class="img_row">
+[Image: OSM_Mesh]<div class="img_row">
 	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/OSM_Mesh.PNG" alt="Loading an OSM Mesh" title="OSM2World Mesh"/>
 </div>
 
@@ -78,12 +78,14 @@ At this point you're free to do as you wish with your shiny new mesh. As a unity
 	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sheffield.PNG" alt="Mesh In Unity" title="Unity Mesh"/>
 </div>
 
-In a few short minutes, you can follow [Augmented Reality Tutorial](http://adamrtomkins.github.io/2018/01/05/Unity_Vuforia.html) to get up and running with a Sheffield City Mesh in AR. 
+In a few short minutes, you can follow (Augmented Reality Tutorial)[http://adamrtomkins.github.io/2018/01/05/Unity_Vuforia.html] to get up and running with a Sheffield City Mesh in AR. 
 
 <div class="img_row">
 	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sheffield_AR.jpeg" alt=Sheffield in AR" title="Sheffield_in_AR"/>
 	
 </div>
+
+
 
 
 
