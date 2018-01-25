@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: NeuroNLP: A Natural Language Portal for Aggregated Fruit Fly Brain Data
+title: NeuroNLP, A Natural Language Portal for Aggregated Fruit Fly Brain Data
 authors: N. H. Ukani, A. Tomkins, C.-H. Yeh, W. Bruning, A. L. Fenichel, Y. Zhou, Y.-C. Huang, D. Florescu, C. L. Ortiz, P. Richmond, C.-C. Lo, D. Coca, A.-S. Chiang, and A. A. Lazar
 journal: Computational Neuroscience Meeting , Volume 18 (Suppl 1):60 , BMC Neuroscience 2017 , July 2017 , University of Antwerp, Antwerp, Belgium⋅
 doi: 10.1186/s12868-017-0372-1
