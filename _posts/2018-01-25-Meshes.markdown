@@ -5,7 +5,6 @@ date: 2018-01-25 12:34:56
 description: Unleash yourself from the screen, and build your first AR App with the Aryzon Headset
 ---
 
-# AR for Architecture: Generate City Meshes
 
 The ability to quickly generate meshes for any city is an effective tool for prototying and demonstrations for any architect or student, especially when combined with AR. 
 
@@ -36,7 +35,7 @@ Open up [OpenStreetMap](http://www.openstreepmap.org) and find the city you are 
 Start the export process by clicking Export on the top tool bar, which will start the export sidebar. You can export the enire area, or click 'Manually select a different area' to draw a smaller rectangle. Here I focus on exporting the city center area focusing on Sheffields Arts tower, and the Ponderosa Park.
 
 <div class="img_row">
-	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/OSM_export.PNG" alt="Exporting a OSM map" title="Export OSM"/>
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/CityMesh/OSM_export.PNG" alt="Exporting a OSM map" title="Export OSM"/>
 </div>
 
 When you are ready, click export, annd download the maps.osm file. 
@@ -50,7 +49,7 @@ This will download a zip file, which you can extract to a OSM2world folder, and 
 
 
 <div class="img_row">
-	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/OSM_Viewer.PNG" alt="Starting OSM2World Viewer" title="OSM2World"/>
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/CityMesh/OSM_Viewer.PNG" alt="Starting OSM2World Viewer" title="OSM2World"/>
 </div>
 
 
@@ -63,7 +62,7 @@ File> Open OSM Model
 And select your map, after some processing, this will show you your city mesh.
 
 <div class="img_row">
-	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/OSM_Mesh.PNG" alt="Loading an OSM Mesh" title="OSM2World Mesh"/>
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/CityMesh/OSM_Mesh.PNG" alt="Loading an OSM Mesh" title="OSM2World Mesh"/>
 </div>
 
 From here you can easily export your mesh as an .obj file, for use in your favourite modelling software, using:
@@ -75,13 +74,13 @@ File > Export OBJ File
 At this point you're free to do as you wish with your shiny new mesh. As a unity developer interested in AR, I can use this to create instant Sheffield maps appearing on the floor in front of me.
 
 <div class="img_row">
-	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sheffield.PNG" alt="Mesh In Unity" title="Unity Mesh"/>
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/CityMesh/Unity_Sheffield.PNG" alt="Mesh In Unity" title="Unity Mesh"/>
 </div>
 
 In a few short minutes, you can follow [Augmented Reality Tutorial](http://adamrtomkins.github.io/2018/01/05/Unity_Vuforia.html) to get up and running with a Sheffield City Mesh in AR. 
 
 <div class="img_row">
-	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Tracked_AR_Vuforia/Unity_Sheffield_AR.jpeg" alt=Sheffield in AR" title="Sheffield_in_AR"/>
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/CityMesh/Unity_Sheffield_AR.jpeg" alt=Sheffield in AR" title="Sheffield_in_AR"/>
 	
 </div>
 
