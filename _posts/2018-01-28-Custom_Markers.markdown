@@ -39,10 +39,10 @@ We're going to assume that you have already set up the Vuforia package and have 
 We are going to require a set of visually distinct Marker Images. I am going to take the opportunity to create a set of map images from the wonderful resource, [Stamen Maps](maps.stamen.com/), using the Toner Setting. As I will be using this in a Sheffield based AR project, I'll create a Sheffield map.
 
 <div class="img_row">
-	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Custom_Markers/Sheffield_Map.PNG" alt="Sheffield Map" title="Sheffield Map Marker"/>
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Custom_Markers/Sheffield_Map.png" alt="Sheffield Map" title="Sheffield Map Marker"/>
 </div>
 
- #### Create your Target Database
+#### 3. Create your Target Database
  
  Once you have your target images, you need to head over to [Vuforia](https://www.vuforia.com), and open up the Developer Pages. You should see a list of your previous projects, you can use a previous one, or start a new one up.
  
@@ -66,7 +66,7 @@ This will upload your Image and take you back to the database view. Now if you o
 	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Custom_Markers/Target_Features.PNG" alt="Inspect the Target Features" title="Target Features"/>
 </div>
 
-#### Import the Database into Unity
+#### 4. Import the Database into Unity
  
 You can go ahead and add as many images as you need now, before downloading the database. You can always re-download the database later if you see you need new images.
  
@@ -78,7 +78,7 @@ When the database is imported, you can enable it by Clicking on your AR camera, 
 	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Custom_Markers/Add_Database.PNG" alt="Add Database" title="Add Database"/>
 </div>
 
-#### Use your Custom Marker
+#### 5. Use your Custom Marker
 
 Finally you can set your Image Target up to use your new Database and Marker by setting the Database and Image target to your new marker, in the inspector window.
 
