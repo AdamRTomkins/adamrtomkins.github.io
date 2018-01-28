@@ -1,0 +1,98 @@
+---
+layout: post
+title:  AR for Architecture - RealWorld Terrain Meshes
+date: 2018-01-26 12:34:56
+description: Learn how to import Real Terrain into your architecture demos in Unity 
+---
+
+
+
+
+## Prerequisites:
+
+1. A Web Browser
+2. Unity
+3. Image Manipulation Software (GIMP, Inkscape, Photoshop)
+
+### Quick Steps:
+
+1. Open Terrain.party
+2. Navigate Blue Square to Desired Terrain
+3. Export the Terrain Data
+4. Resize Terrain Data to 1024*1024
+5. Start a new Unity Project
+6. Create a new Javascript Script Called HeightmapFromTexture.js 
+7. Copy the script from [here](http://wiki.unity3d.com/index.php/HeightmapFromTexture)
+8. Import PNG texture and set Texture to "Enable Read and Write"
+9. Create and scale the terrain
+10. Apply Height Map to Terrain using Terrain>Height Map From Texture
+
+### A more in depth walk through.
+
+This tutorial will take you from an empty unity project, to a real world terrain scene in around 10 minutes. There is no programming, and only a small amount of image manipulation. 
+
+
+#### 1. Gather your Terrain
+
+We are going to use a website called [Terrain.party](http://www.terrain.party), to find and export terrain data. When you open it up you will be somewhere in Finland with a blue box, this blue box represents the area that you will be exporting. 
+
+By dragging the blue box, and zooming out and in, find the area that you wish to model, in this case I'll look at the Sagamatha National Park, home of Mount Everest. Yo can change the size of the area you are exporting, with the plus and minus buttons. 
+
+Its important to take note of the scale of your selection (18 km for me) as we will be scaling our terrain to match it later on. 
+
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Terrain/Select_Terrain.PNG" alt="Selecting Terrain" title="Terrain Selection"/>
+</div>
+
+When you have selected the terrain, click the cloud button, and export your terrain.
+
+#### 2. Process your Terrain Data
+
+When you have downloaded your terrain data, you will receive a zip file with several images in it. Feel free to read the ReadMe supplied to look at the differences between them, I chose the Merged Image, and extract that. 
+
+The first think you have to do is rescale the terrain data. You will receive it in a 1081 by 1081 pixel format. You first need to reduce it to 1024 by 1024 pixels, by either cropping or rescaling in your favourite image manipulation program. I use Inkscape, import the image, lock the height and width ratio and resize down to 1024, and resave it.
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Terrain/Resize_Terrain.PNG" alt="Resize Terrain" title="Resize Selection"/>
+</div>
+
+With this at 1024 px by 1024 px, we can finally use it as a Height Map.
+
+#### 3. Preparing Unity for the Height Maps
+
+We need to create some assets in unity to use PNG as heing maps. First, in your unity project,  we need to create a new Script called HeightmapFromTexture.js. And copy in the script contents from [here](http://wiki.unity3d.com/index.php/HeightmapFromTexture). When you save this, and return back into unity, you should see a new menu item called Terrain, with a drop down option Height map From Texture.
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Terrain/Unity_Script.PNG" alt="Heightmap From Texture" title="Heightmap From Texture."/>
+</div>
+
+#### 4. Prepare your Texture in Unity
+
+When we have the Height map From Texture script in place, its time to drag in your rescaled terrain PNG as an asset. When it is imported, it will not be able to be read by our script. To enable this we need to select the terrain, and in the inspector, under advanced, tick "Read and Write Enabled". This means our script can now use it. 
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Terrain/Unity_EnableRW.PNG" alt="Enable Read and Write" title="Enable Read and Write"/>
+</div>
+
+
+#### 5. Create and scale the terrain
+
+We are now ready to use our height map on a terrain. To add a terrain, Right Click in your heirarchy and use "3D Object > Terrain". This will create a large Terrain object, in the terrain inspector, we need to scale the terrain so that it matches our original world area, in my case 18km. In the inspector for the terrain, click on the setting cog, and scroll down to find the terrain Width and Length. We need these to be factors of 18 km. In my case I want a small terrain for some AR work, so I chose 1.8 and 1.8, with a weight of 0.18. 
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Terrain/Unity_Scale_Terrain.PNG" alt="Scale Terrain" title="Scale Terrain"/>
+</div>
+
+You can do much larger for most purposes, you can also play with the height scaling to get more or less pronounced mountains.
+
+#### 6. Apply Height Map 
+
+The final step, is to apply the Height Map. This is done by the script, so we can select the terrain file in our asset bar, then click "Terrain> Height Map from Texture" to have the selected terrain automatically applied.
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Terrain/Unity_Terrain.PNG" alt="Unity Terrain" title="Unity Terrain"/>
+</div>
+
+
+
