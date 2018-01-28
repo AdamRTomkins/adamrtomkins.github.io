@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  AR for Architecture - RealWorld Terrain Meshes
+title:  AR and Architecture - Real World Terrain Meshes
 date: 2018-01-26 12:34:56
 description: Learn how to import Real Terrain into your architecture demos in Unity 
 ---
 
 
-
+In this short tutorial, we'll look at how to extract real world terrain data and import it into the Unity game engine using a custom Script. 
 
 ## Prerequisites:
 
