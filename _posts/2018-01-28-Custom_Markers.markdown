@@ -2,7 +2,7 @@
 layout: post
 title:  How to use custom markers with Vuforia
 date: 2018-01-28 15:20:00
-description: Learn how to any marker in VR, including maps!
+description: Learn how to any marker in Vuforia, including maps!
 ---
 
 ### Prerequisites:
@@ -94,4 +94,6 @@ And you should now see your custom marker on your target Image. Print out your m
 
 You can see it running here in Unity, with much better tracking than the astronaut, displaying a Arts Tower Mesh, a famous Sheffield landmark. You can see how to import SketchUp models like the Arts tower, in the next article.
 
-
+ <div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/Custom_Markers/ArtsTower.PNG" alt="ArtsTower" title="The Sheffield Arts Tower"/>
+</div>
