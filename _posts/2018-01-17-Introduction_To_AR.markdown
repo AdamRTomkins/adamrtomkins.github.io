@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Introduction to AR Development
-date: 2018-01-05 13:00:00
+date: 2018-01-17 13:00:00
 description: An introduction to the technologies behind Augmented reality, and where to start developing.
 ---
 [Warning, this is part of an ongoing Augmented Reality series, expect changes regularly]
