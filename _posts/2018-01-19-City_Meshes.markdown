@@ -2,7 +2,7 @@
 layout: post
 title:  AR for Architecture: Generate City Meshes
 date: 2018-01-05 13:00:00
-description: A tutorial on how to Generate quick meshes of any city, using Open Street Maps.
+description: A tutorial on how to Generate quick meshes of any city, using Open Street Maps.	
 ---
 
 # AR for Architecture: Generate City Meshes
