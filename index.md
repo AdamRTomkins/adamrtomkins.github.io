@@ -10,7 +10,7 @@ I am a [Research Software Engineer](https://software.ac.uk/fellows/adam-tomkins)
 
 My research interests include connectomics, complexity, network science with large-network visualisation, with a passion for side projects with Virtual and Augmented Reality and Blockchain Development.
 
-I'm currently experimenting with the [Augmented Reality for Architecture](http://adamrtomkins.github.io/blog/) project, and the spin-off [CityMesh](https://github.com/AdamRTomkins/CityMesh) project, looking at developing Augmented Reality technology in an Architecture setting, with emphisis on detailing to tools and techniques to get new developers started with AR.
+I'm currently experimenting with the [Augmented Reality for Architecture](http://adamrtomkins.github.io/blog/) project, and the spin-off [CityMesh](https://adamrtomkins.github.io/CityMesh/) project, looking at developing Augmented Reality technology in an Architecture setting, with emphisis on detailing to tools and techniques to get new developers started with AR.
 
 <br/>
 <hr/>
