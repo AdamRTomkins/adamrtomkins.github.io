@@ -6,7 +6,7 @@ title: home
 <img class="col one right" src="/img/prof_pic.jpg">
 
 <br/>
-I am a [Research Software Engineer](https://software.ac.uk/fellows/adam-tomkins) and [neuroinformatic tool developer](https://neuronlp.fruitflybrain.org/) based in Sheffield, UK. I completed my PhD in Computer Science under <a href="http://staffwww.dcs.shef.ac.uk/people/E.Vasilaki/" target="blank">Dr. Eleni Vasilaki</a>, and I am currently a Computational Neuroscientist on the <a href="http://gtr.rcuk.ac.uk/projects?ref=BB/M025527/1" target="blank"> Digital Fruit Fly Brain</a> Project, with a Research Software Engineering Fellowship from the Sustainable Software Institute.
+I am a [Research Software Engineer](https://software.ac.uk/fellows/adam-tomkins) and [Neuroinformatic Tool Developer](https://neuronlp.fruitflybrain.org/) based in Sheffield, UK. I completed my PhD in Computer Science under <a href="http://staffwww.dcs.shef.ac.uk/people/E.Vasilaki/" target="blank">Dr. Eleni Vasilaki</a>, and I am currently a Computational Neuroscientist on the <a href="http://gtr.rcuk.ac.uk/projects?ref=BB/M025527/1" target="blank"> Digital Fruit Fly Brain</a> Project, with a Research Software Engineering Fellowship from the Sustainable Software Institute.
 
 My research interests include connectomics, complexity, network science with large-network visualisation, with a passion for side projects with Virtual and Augmented Reality and Blockchain Development.
 
