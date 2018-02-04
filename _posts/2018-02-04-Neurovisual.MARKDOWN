@@ -9,6 +9,7 @@ The Drosophila Retina is made up of tiling hexagonal photorecptors. As part of t
 
 Over on my [Github](https://github.com/AdamRTomkins/Neurovisual_Shader) you can see one interesting attempt at creating these inputs using Shaders in Unity, which look like this:
 
-![Neurovisual Shader](https://github.com/AdamRTomkins/Neurovisual_Shader/blob/master/Example.gif)
-
+<div class="img_row">
+	<img style="max-height: 100%;max-width: 100%"  src="{{ site.baseurl }}/img/Blogs/Neurovisual/Example.gif" alt="Neurovisial Shader" title="Drosophila Retina Shader"/>
+</div>
 
