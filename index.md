@@ -17,7 +17,7 @@ I'm currently experimenting with the [Augmented Reality for Architecture](http:/
 <br/>
 <span class="contacticon center">
 	<a href="https://github.com/adamrtomkins" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="www.linkedin.com/in/adam-tomkins-21261717" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+	<a href="https://www.linkedin.com/in/adam-tomkins-21261717" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://twitter.com/DrTomki" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
 
