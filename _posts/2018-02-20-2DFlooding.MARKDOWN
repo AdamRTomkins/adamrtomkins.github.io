@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Shader Design: Flood Plane Simulator
+title:  Shader Design -  Flood Plane Simulator
 date: 2018-02-20 15:20:00
 description: Developing a Flood Plain Simulator using City data and terrain maps, in 2D.
 ---
