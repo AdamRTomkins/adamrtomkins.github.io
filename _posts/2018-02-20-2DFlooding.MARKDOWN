@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  3D Printing the Drosophila Melongaster Central Complex
+title:  Shader Design: Flood Plane Simulator
 date: 2018-02-20 15:20:00
-description: Developing a Flood Plain Simulator: part one, the flood shader.
+description: Developing a Flood Plain Simulator using City data and terrain maps, in 2D.
 ---
 
 As part of an exercise in AR development and Unity practice, I want to put together projects with both the City Mesh data extracted from Open Stree Map, and the terrain data extracted from terrain.party, to create a human-centric flood plain simulator.
