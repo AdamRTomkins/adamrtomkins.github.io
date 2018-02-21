@@ -9,13 +9,17 @@ As part of an exercise in AR development and Unity practice, I want to put toget
 
 It is trivial to create a rudamentry 3D flood risk simulator with a unity terrain and a water level plane. Here I want to try and bridge the inherrently 2D City Data, with the 3D terrain data, to extract the flood plane data and place it as an over lay onto our flat city data.
 
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/2DFlooding/mesh.PNG" alt="Mesh Flooding"  title="Flooding"/>
+</div>
+
 This will give us a nice and easy way to analyse the human impact of rising water levels, instead of the pure geographic impact.
 
 The first step to create this project is to create a Surface shader to render our 3D data driver 2D water plane.
 
 We can do this by creating a blending shader, which blends two overlapping textures, the Water Texture, and the height map.
 
-Using the heightmap, we will set the transparency of the Water texture based on the grayscale value of each pixel in the heightmap. We can threshold the transparency value based on a water-level cut off to create an interactive floodplane.
+Using the [Real World Terrain Heightmap](https://adamrtomkins.github.io/AR-Architecture/Terrain/)  we will set the transparency of the Water texture based on the grayscale value of each pixel in the heightmap. We can threshold the transparency value based on a water-level cut off to create an interactive floodplane.
 
 We first start with the following images:
 
@@ -107,7 +111,7 @@ Shader "Custom/Flood"
 
 This creates the following effect, by varing the _Transparent parameter:
 
- <video width="320" height="240" controls>
+ <video width="640" height="480" controls>
   <source src="{{ site.baseurl }}/img/Blogs/2DFlooding/flooding.webm" type="video/webm">
 Your browser does not support the video tag.
 </video> 
@@ -138,7 +142,17 @@ Next we can add further floodplane warning areas to the shader by modifying the 
 	}
 ~~~
 
- <video width="320" height="240" controls>
+ <video width="640" height="480" controls>
   <source src="{{ site.baseurl }}/img/Blogs/2DFlooding/atrisk.webm" type="video/webm">
 Your browser does not support the video tag.
 </video> 
+
+
+The next step to make a more informative application, is to add and align the Sheffield city mesh from the [City Mesh](https://adamrtomkins.github.io/AR-Architecture/Meshes/) tutorial.
+
+ <video width="640" height="480" controls>
+  <source src="{{ site.baseurl }}/img/Blogs/2DFlooding/mesh.webm" type="video/webm">
+Your browser does not support the video tag.
+</video> 
+
+
