@@ -66,7 +66,7 @@ Here they approach it differently, in a saner and results orientated way: First,
 3. If someone has almost solved your task, modify their network.
 4. Finally, if there is nothing else out there, you can consider building your own.
 
-We cover the first 3 points in that network, building on the famous networks, Alexnet for Image Classification and COCO for object recognition, editing network structure where necessary. The class really builds your confidence with how to find existing networks and modifying them to your needs. Save the pure network design for pure researchers.
+We cover the first 3 points in that network, building on the famous networks, AlexNet for Image Classification and DetectNet for object recognition, editing network structure where necessary. The class really builds your confidence with how to find existing networks and modifying them to your needs. Save the pure network design for pure researchers.
 
 
 ## What you will build?  
@@ -75,7 +75,7 @@ I almost don’t want to ruin the surprise, but it’s nice to have an idea of w
 
 The course focuses on Computer Vision, and you will use and train an object recognition network, to support an ‘intelligent Dog Door’, letting your favourite canine companion come as they please while keeping the neighbour cats outside.
 
-You will then expand the basic classification to look at localisation, building a pipeline to go from asking is there a Dog, to where is the Dog? This will take you through the Alexnet object network, through to modifying its structure to achieve more complicated goals. and finally using the COCO network for more fine-grained object recognition.
+You will then expand the basic classification to look at localisation, building a pipeline to go from asking is there a Dog, to where is the Dog? This will take you through the AlexNet object network, through to modifying its structure to achieve more complicated goals. and finally using DetectNet in conjuction with COCO, Microsoft's dataset for object detection, for more fine-grained object recognition.
 
 I want to emphasize that while you’re not building networks from the ground up, the focus on adapting well-proven networks really is invaluable in showing you want can be done without the extensive research-focused approach or network crafting.
 
