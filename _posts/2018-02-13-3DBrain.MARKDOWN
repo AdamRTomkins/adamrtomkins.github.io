@@ -1,0 +1,29 @@
+---
+layout: post
+title:  3D Printing the Drosophila Melongaster Central Complex
+date: 2018-02-08 15:20:00
+description: A exploration into 3D printing and the insect nervous system.
+---
+
+Building on top of the previous blog post, the AR Brain explorer, I started to think of more uses of the data we have got in neuroscience. The NeuroNLP interface is heavily based around 3D meshes of individual fly neuropils. And because of this, I started to think of new ways to use the mesh. And the obvious example was 3D printing. 
+
+Part of why I love working at Sheffield university, is the sheer amount of creative resources you have at your disposal, after working on my AR project, I happened to walk through the Diamond, and noticed we have a new MakerSpace, called iforge, fully equipped with 3D printers.
+
+So I loaded my new meshes up in CURA, specifically just the central complex, to see how they would look, and with a little scaling down, they seemed like they would turn out great.
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/3DBrain/CURA.PNG" alt="CURA modelling" title="CURA Modelling"/>
+</div>
+
+
+So I went ahead and printed them to see how they would work, and it seems I have a fair way to go tuning the parameters for a good print, but they seem alrigh, if not a bit lacking in contrast.
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/3DBrain/Prints.png" alt="3D Prints" title="3D Prints"/>
+</div>
+
+While they could all do with some finishing touches, I really like how the layering came out on the Ellipsoid body, in case you're wondering, this is how they sit in vivo.
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/3DBrain/CC.PNG" alt="Central Complex" title="Central Complex"/>
+</div>

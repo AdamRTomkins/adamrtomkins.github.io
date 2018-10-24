@@ -1,0 +1,16 @@
+---
+layout: post
+title:  Augmented Reality Brain Explorer
+date: 2018-02-08 15:20:00
+description: View the Drosophia brain in AR with the FFBO.
+---
+
+The Drosophila Brain is made up of ~50 individual Neuropils, we models these and logical processing units in computational models, to understand each of their function. Here I present a proof-of-concept explorer to interact with the brain, through its whole morphology, or individual sub circuits.  Each neuropil can then be selected, and used to explore the neurons in the neuropils through the NeuroNLP Tag system.
+
+<video controls="controls">
+  <source type="video/mp4" src="{{ site.baseurl }}/img/Blogs/ARBrain/AR.mp4"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
+
+This grew out of the desire to utilise the brain meshes that underlay the FFBO interfaces. On the journey of creating the AR demonstration, I wondered if the meshes would be easily 3D printable, which lead me to my next blog post.
+

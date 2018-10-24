@@ -1,0 +1,59 @@
+---
+layout: post
+title:  Bring your SketchUp models into Unity
+date: 2018-01-29 15:20:00
+description: Expand past the Asset Store and access the huge SketchUp databases in Unity.
+---
+
+[SketchUp](https://www.sketchup.com/) is Googles answer to 3D modelling, originally designed to build 3D renders on top of Google Maps. The Interface is simple and intuitive, and it can be used to create some great and complex models in aa very short time. If you're new to SketchUp, I suggest checking out this [great introduction](https://www.youtube.com/watch?v=DGrLDBzzGL4) on YouTube.
+
+SketchUp has a free version online, and there is a trial download you can try for 30 days. In this tutorial I'll be using the trail version, because I do a lot of work on the move, and there is very little 4G going through the Peak District. So without further ado, lets get modelling.
+
+
+### Prerequisites:
+
+1. A Web Browser
+2. Unity
+4. SketchUp
+
+### Quick Steps:
+
+1. Find a suitable SketchUp File
+2. Convert it to an FBX file
+3. Import it in Unity
+
+### A more in depth walk through.
+
+Once you have access to sketchUp, and a new Unity project open to test this with, we can start opening up a whole new world of models for you.
+
+#### 1. Find a suitable SketchUp File
+
+SketchUp has an amazing associated [3D model database](https://3dwarehouse.sketchup.com/), that really goes above and beyond what you can find on the Asset store, especially when it comes to Architectural Models.  So first we need to head over to the [3D warehouse](https://3dwarehouse.sketchup.com/) and pick out a model we want to get into unity.
+
+As we saw in the last tutorial, I'll be using the model of the [Arts Tower](https://3dwarehouse.sketchup.com/model/5bb83ee87189242bf462e854274aefd8/Arts-Tower-Sheffield-UK) in Sheffield. This is great for detailed models, that are small. Another great resource is [SketchLab](https://sketchfab.com/), but the models, especially the potogrammetry ones, can be too big to run with mobile AR. 
+
+When you have found your model of choice, click download and select "SketchUp 2018 Model". 
+
+You will see the Unity Cubo logo indicating the current build platform, to switch, click on Android and click the switch platform button. It may take a while to recompile your scripts and assets.
+
+#### 2. Convert it to an FBX file
+
+Now that you have your model in the SketchUp format, we can easily open it in SketchUp. Once imported you can check the model out and take this time to make any last minuite changes and additions.
+
+I am going to clean up the base of the Arts Tower and remove the ground texture and underground structure that wont be see in my AR application.
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/SketchUp/Open_Model.PNG" alt="Open a Sketch Up Model" title="Open a Sketch Up Model"/>
+</div>
+
+When you've finished re-touching the model you can export it as an FBX file by using "File>Export>3D model" and making sure you select the FBX extension.
+
+
+#### 3. Import it in Unity
+
+Now that the file is in an FBX format, it should be as easy as a drag and drop to get to see your model in Unity, as so!
+
+<div class="img_row">
+	<img style="max-height: 100%"  src="{{ site.baseurl }}/img/Blogs/SketchUp/Unity.PNG" alt="Open a Sketch Up Model in Unity" title="Open a Sketch Up Model in Unity"/>
+</div>
+
