@@ -75,7 +75,7 @@ I almost don’t want to ruin the surprise, but it’s nice to have an idea of w
 
 The course focuses on Computer Vision, and you will use and train an object recognition network, to support an ‘intelligent Dog Door’, letting your favourite canine companion come as they please while keeping the neighbour cats outside.
 
-You will then expand the basic classification to look at localisation, building a pipeline to go from asking is there a Dog, to where is the Dog? This will take you through the AlexNet object network, through to modifying its structure to achieve more complicated goals. and finally using DetectNet in conjuction with COCO, Microsoft's dataset for object detection, for more fine-grained object recognition.
+You will then expand the basic classification to look at localisation, building a pipeline to go from asking is there a Dog, to where is the Dog? This will take you through the AlexNet object network, through to modifying its structure to achieve more complicated goals. and finally using DetectNet in conjunction with COCO, Microsoft's dataset for object detection, for more fine-grained object recognition.
 
 I want to emphasize that while you’re not building networks from the ground up, the focus on adapting well-proven networks really is invaluable in showing you want can be done without the extensive research-focused approach or network crafting.
 
