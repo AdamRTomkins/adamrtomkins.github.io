@@ -19,13 +19,13 @@ And boy am I glad I did. I’m writing this just after completing the course and
 
 I’m not here to tell you how great Deep Learning is, or how it is revolutionising every field it gets its hands on, I’m here to tell you about how great the Deep Learning Training is, and how it could breath new life into what you’ve got your hands on right now. We’re all busy people, so I’ll break it down simply, and try to justify why you should write a day off for a training event like this.
 
-## What was the course?
+## What was the course?  
 
 The course is an NVIDIA Ambassador Event called “Fundamentals of Deep Learning for Computer Vision”, Organised by Research Software Engineering at Sheffield University. It is open to any Student or Academic and is run several times a year. You can find out about the future events and similar events like it through the Sheffield RSE mailing list, or your local RSE group.
 
 The course runs all day from 9am until 4-5pm, with breaks and a good lunch break if you absolutely must keep tabs on those important work emails. It is laid back, and lead at a good pace, with stretch goals to keep the more experienced busy, and support to keep the more hesitant crowd up to speed.
 
-## What do you need to know ahead of time
+## What do you need to know ahead of time?  
 
 The course is designed for beginners, but it takes a few things for granted. First make sure you understand the basics of what machine learning is, and how Deep Learning works. You don’t need to know any maths, only the concepts behind it. There are plenty of good youtube videos you can watch, with some of my personal favourites being from Two Minute papers with the wonderfully enthusiastic Károly Zsolnai-Fehér.
 
@@ -35,13 +35,13 @@ The whole course is very well designed to keep you on track and is written and t
 
 With that being said, that is all you need to know ahead of time, everything else is taken care of.
 
-## How does the course work
+## How does the course work?
 
 And I do mean everything. You will be using NVIDIA own DIGITS platform, free of charge as part of the Deep Learning Institute. This means that you completely cut out the nightmare configuration of toolkits and hardware compatibilities, with driver versions. It all just works. You will be running deep learning examples within half an hour of getting started.
 
 All of your work will be done in the browser, so all you need is a computer with chrome (We had university Computers). You will be given access to everything else you need on the day. And better still, you still have access after the course, to refine your ideas and try out new programs. You learn how to build some neat techniques, so it is worth keeping them around to jumpstart future projects.
 
-## What will you learn
+## What will you learn?  
 
 The course is all about building, training and deploying networks, without getting stuck in the minutia of network design and data processing. And they pull it off well. The official course description states its aims as:
 
@@ -69,7 +69,7 @@ Here they approach it differently, in a saner and results orientated way: First,
 We cover the first 3 points in that network, building on the famous networks, Alexnet for Image Classification and COCO for object recognition, editing network structure where necessary. The class really builds your confidence with how to find existing networks and modifying them to your needs. Save the pure network design for pure researchers.
 
 
-## What you will build
+## What you will build?  
 
 I almost don’t want to ruin the surprise, but it’s nice to have an idea of what you will have built by the time you're done.
 
@@ -79,7 +79,7 @@ You will then expand the basic classification to look at localisation, building 
 
 I want to emphasize that while you’re not building networks from the ground up, the focus on adapting well-proven networks really is invaluable in showing you want can be done without the extensive research-focused approach or network crafting.
 
-## What you will get
+## What you will get?  
 
 If having the confidence to adapt a network to your needs, including training and validation, and deployment, at the end there is an optional assessment, which is well worth doing, to build a new system yourself, in order to get an NVIDIA Deep Learning Institute certification to hang on your wall, or put on your Linkedin.
 
