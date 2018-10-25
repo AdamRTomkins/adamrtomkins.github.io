@@ -21,7 +21,7 @@ I’m not here to tell you how great Deep Learning is, or how it is revolutionis
 
 ## What was the course?  
 
-The course is an NVIDIA Ambassador Event called “Fundamentals of Deep Learning for Computer Vision”, Organised by Research Software Engineering at Sheffield University. It is open to any Student or Academic and is run several times a year. You can find out about the future events and similar events like it through the Sheffield RSE mailing list, or your local RSE group.
+The course is an NVIDIA Ambassador Event called “Fundamentals of Deep Learning for Computer Vision”, organised by the Research Software Engineering team at Sheffield University, and lead by Twin Karmakharm. It is open to any Student or Academic and is run several times a year. You can find out about the future events and similar events like it through the Sheffield RSE mailing list, or your local RSE group.
 
 The course runs all day from 9am until 4-5pm, with breaks and a good lunch break if you absolutely must keep tabs on those important work emails. It is laid back, and lead at a good pace, with stretch goals to keep the more experienced busy, and support to keep the more hesitant crowd up to speed.
 
